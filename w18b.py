@@ -19,6 +19,11 @@ def num(number):
     elif number %5 == 0:
         print('buzz')
     elif number %5 == 0 and number %3 == 0:
-        print('fizzbuzz')    
+        print('fizzbuzz')
+    else:
+        print('not divisable by either')        
 
-num(10)
+numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+for x in numbers:
+    num(x)
+
